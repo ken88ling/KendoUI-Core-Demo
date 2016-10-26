@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E66DA80-3B1F-43EB-AB9F-FCBFE4B5B412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{464F4892-67D9-4697-95A2-291FD3377F98}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KendoUI-Demo", "src\KendoUI-Demo\KendoUI-Demo.xproj", "{65C33993-C2EF-4EFA-A8DE-30D55D159604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C33993-C2EF-4EFA-A8DE-30D55D159604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C33993-C2EF-4EFA-A8DE-30D55D159604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C33993-C2EF-4EFA-A8DE-30D55D159604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C33993-C2EF-4EFA-A8DE-30D55D159604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65C33993-C2EF-4EFA-A8DE-30D55D159604} = {6E66DA80-3B1F-43EB-AB9F-FCBFE4B5B412}
+	EndGlobalSection
+EndGlobal
